@@ -1,0 +1,11 @@
+package com.motoassembly.solution.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import com.motoassembly.solution.models.Tanks;
+
+@Repository
+public interface TanksDao extends MongoRepository<Tanks,String> {
+
+}
